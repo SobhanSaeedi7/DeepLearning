@@ -92,17 +92,8 @@ You can also use [@Sobi_Akhund_Human_bot](https://t.me/Sobi_Akhund_Human_bot) wh
 
 ||Train|Validation|
 |---|---|---|
-|Loss|||
-|Accuracy|||
-
-|Loss Plot|Accuracy Plot|Confusion Matrix|
-|---|---|---|
-|* Results:
-
-||Train|Validation|
-|---|---|---|
-|Loss|0.0071|0.4136|
-|Accuracy|1.0000|0.8702|
+|Loss|0.0022|0.7147|
+|Accuracy|1.0000| 0.8667|
 
 |Loss Plot|Accuracy Plot|Confusion Matrix|
 |---|---|---|
