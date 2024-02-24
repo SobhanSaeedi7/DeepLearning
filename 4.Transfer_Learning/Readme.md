@@ -97,5 +97,4 @@ You can also use [@Sobi_Akhund_Human_bot](https://t.me/Sobi_Akhund_Human_bot) wh
 
 |Loss Plot|Accuracy Plot|Confusion Matrix|
 |---|---|---|
-|![alt text](pics/7-7-faces_loss.png) |![alt text](pics/7-7-faces_accuracy.png) |![alt text](pics/7-7-faces_Cm.png)|
-|
+|![alt text](pics/AorH_loss.png)| ![alt text](pics/AorH_accuracy.png) |![alt text](pics/AorH_CM.png)|
