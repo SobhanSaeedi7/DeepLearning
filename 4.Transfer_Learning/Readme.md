@@ -70,7 +70,7 @@ You access to model file(.h5) [here](https://drive.google.com/file/d/1-59eITQyfz
 
 Input :
 
-![Messi](pics\Lionel-Messi-10_01.jpg)
+![Messi](pics/Lionel-Messi-10_01.jpg)
 
 Output :
 ```
