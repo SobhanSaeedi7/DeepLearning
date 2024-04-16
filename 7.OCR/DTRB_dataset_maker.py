@@ -2,7 +2,7 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 
-def DTRB_dataset_maker(path, zipped_data_path='content/drive/MyDrive/PyLearn 7 Course/57.OCR/plate_img-'):
+def DTRB_dataset_maker(path, zipped_data_path='/content/drive/MyDrive/PyLearn 7 Course/57.OCR/plate_img-'):
   datasets = ['train', 'test', 'validation']
   Fa_letters = ['الف', 'ب', 'پ', 'ت', 'ث',
                 'ز', 'ش', 'ع', 'ف', 'ک',
@@ -37,7 +37,7 @@ def DTRB_dataset_maker(path, zipped_data_path='content/drive/MyDrive/PyLearn 7 C
           if name in Fa_letters:
             name = En_letters[Fa_letters.index(name)]
           plate += name
-        plate_list = [path+'/'+filename.split('.')[0]+'.jpg', plate]
+        plate_list = [dataset+'/'+filename.split('.')[0]+'.jpg', plate]
         plates.append(plate_list)
         os.remove(path+'/'+dataset+'/'+filename)
 
