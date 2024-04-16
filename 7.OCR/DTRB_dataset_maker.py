@@ -2,7 +2,7 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 
-def make_DTRB_dataset(path, zipped_data_path='drive/MyDrive/PyLearn 7 Course/57.OCR/plate_img-'):
+def DTRB_dataset_maker(path, zipped_data_path='drive/MyDrive/PyLearn 7 Course/57.OCR/plate_img-'):
   datasets = ['train', 'test', 'validation']
   Fa_letters = ['الف', 'ب', 'پ', 'ت', 'ث',
                 'ز', 'ش', 'ع', 'ف', 'ک',
